@@ -5,7 +5,7 @@ import { User } from "../models/user.model.js";
 
 
 // to-do's for auth middleware:
-//verify the user (in auth middleware):
+    //verify the user (in auth middleware):
     //Get access token from cookies or from header(Authorization)
     //verify Token
     //Create a response after verifying the token
