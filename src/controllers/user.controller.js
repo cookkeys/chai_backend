@@ -208,7 +208,7 @@ const loginUser = asyncHandler(async (req, res) =>{
         .json(new ApiResponse(200, {}, "User logged Out"))  //clear cookies
     })  //send response
     
-//to-do's for refreshing access token method
+//to-do's for refreshing access token method 
     //obtain refresh token from cookies or body
     //decode the obtained token
     //find the user using decoded token
@@ -266,6 +266,7 @@ const loginUser = asyncHandler(async (req, res) =>{
     })
     //add route for refreshing token (in user.route)
 
+    
 
 
 export {registerUser, loginUser, logoutUser, refreshAccessToken};
