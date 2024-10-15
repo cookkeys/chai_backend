@@ -516,7 +516,7 @@ const registerUser = asyncHandler( async (req, res) => {
         .json(
             new ApiResponse(
                 200,
-                user[0].watchHistory,   // returned the first data from aggregation pipeline from watchHistroy fie
+                user[0].watchHistory,   // returned the first data from aggregation pipeline from watchHistroy field
                 "Watch history fetched successfully"
             )
         )
